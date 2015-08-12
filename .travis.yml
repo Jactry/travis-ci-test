@@ -1,0 +1,12 @@
+os:
+  - linux
+
+cache: apt
+
+language: c
+
+compiler:
+  - gcc
+
+script:
+  - cat log.txt
